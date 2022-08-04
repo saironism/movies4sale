@@ -9,18 +9,48 @@ export class CartService {
 
   data: Product[] = [
     { id: 1,
-      name: 'Call Of Duty - 2019',
-      price: 4000,
+      name: '3 Idiots - 2009',
+      price: 350,
       qty: 1
     },
     { id: 2,
-      name: 'Spiderman - 2019',
-      price: 3000,
+      name: 'The Entitled - 2022',
+      price: 350,
       qty: 1
     },
     { id: 3,
-      name: 'Mortal Kombat 11 - 2019',
-      price: 4000,
+      name: 'Kungfu Dunk - 2008',
+      price: 400,
+      qty: 1
+    },
+    { id: 1,
+      name: 'Metamorphosis - 2019',
+      price: 400,
+      qty: 1
+    },
+    { id: 2,
+      name: 'Spirited Away - 2001',
+      price: 450,
+      qty: 1
+    },
+    { id: 3,
+      name: 'Orphan - 2009',
+      price: 500,
+      qty: 1
+    },
+    { id: 1,
+      name: 'Transformers: The Last Knight - 2017',
+      price: 500,
+      qty: 1
+    },
+    { id: 2,
+      name: 'Hello World - 2019',
+      price: 500,
+      qty: 1
+    },
+    { id: 3,
+      name: 'Love is Colorblind - 2021',
+      price: 500,
       qty: 1
     }
   ]
