@@ -19,7 +19,7 @@ export class CartService {
       qty: 1
     },
     { id: 3,
-      name: 'Kungfu Dunk - 2008',
+      name: 'KungFu Dunk - 2008',
       price: 400,
       qty: 1
     },

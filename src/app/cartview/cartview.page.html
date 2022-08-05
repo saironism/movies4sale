@@ -1,11 +1,11 @@
 <ion-header>
-  <ion-toolbar color="danger">
+  <ion-toolbar color="secondary">
 
     <ion-title>
-      Review Your Cart
+      Review Your Cart ツ
     </ion-title>
 
-    <ion-button color="clear" size="small" slot="end" (click)="close()">
+    <ion-button color="danger" size="small" slot="end" (click)="close()">
       <ion-icon name="close"></ion-icon>
     </ion-button>
 
@@ -46,7 +46,7 @@
                 <b>{{ p.name }}</b>
               </ion-col>
               <ion-col size="3" class="ion-text-end">
-                {{ p.qty * p.price | currency:'PHP:' }}
+                {{ p.qty * p.price | currency:' ₱ ' }}
               </ion-col>
             </ion-row>
           </ion-grid>
@@ -58,7 +58,7 @@
                 Total:
               </ion-col>
               <ion-col size="3" class="ion-text-end">
-                {{ getTotal() | currency:'PHP:' }}
+                {{ getTotal() | currency:' ₱ ' }}
               </ion-col>
             </ion-row>
           </ion-grid>
@@ -66,7 +66,7 @@
       </ion-list>
    
       <ion-button expand="full" color="dark" (click)="carddetails()" *ngIf="cart.length > 0">
-        Pay Now
+        CLICK TO PAY
       </ion-button>
 
       <ion-list *ngIf="cart.length === 0">
