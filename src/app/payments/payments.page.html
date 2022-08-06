@@ -15,11 +15,11 @@
 <ion-content>
 
   <div class="ion-padding">
-    <ion-input [(ngModel)]="cardinfo.number" placeholder="Reference No.:"></ion-input>
-    <ion-input [(ngModel)]="cardinfo.expMonth" placeholder="Date of Payment:"></ion-input>
-    <ion-input [(ngModel)]="cardinfo.expYear" placeholder="Amount:"></ion-input>
     <ion-button expand="full" color="dark" (click)="pay()">
-      Pay Via Gcash 💰
+      <a href="https://connect.paymaya.com/login/">Pay Via Paymaya</a>
+      <ion-button expand="full" color="dark" (click)="pay()">
+      <a href="https://m.gcash.com/gcashapp/gcash-promotion-web/2.0.0/index.html#/">Pay Via Gcash</a>
+    </ion-button>
     </ion-button>
   </div>
 </ion-content>
