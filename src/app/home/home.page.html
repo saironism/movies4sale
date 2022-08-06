@@ -1,10 +1,13 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      🎬 Movies for Sale!
+      🎬 Movie Pay
     </ion-title>
+    <ion-button routerLink="/loginpage" color="ion-color-primary">
+      <ion-icon name="person-circle-outline"></ion-icon>
+    </ion-button>
 
-    <ion-button color="light" size="small" slot="end" (click)="openCart()">
+    <ion-button color="ion-color-primary" size="small" slot="end" (click)="openCart()">
       {{ cartItemCount | async }}
       <ion-icon name="cart" slot="end"></ion-icon>
     </ion-button>
