@@ -8,50 +8,60 @@ import { BehaviorSubject } from 'rxjs';
 export class CartService {
 
   data: Product[] = [
-    { id: 1,
+    { 
+      id: 1,
       name: '3 Idiots - 2009',
       price: 350,
-      qty: 1
+      qty: 1,
+      image: 'assets/1.jpg',
     },
     { id: 2,
       name: 'The Entitled - 2022',
       price: 350,
-      qty: 1
+      qty: 1,
+      image: 'assets/2.jpg',
     },
     { id: 3,
       name: 'KungFu Dunk - 2008',
       price: 400,
-      qty: 1
+      qty: 1,
+      image: 'assets/3.jpg',
     },
     { id: 1,
       name: 'Metamorphosis - 2019',
       price: 400,
-      qty: 1
+      qty: 1,
+      image: 'assets/4.jpg',
     },
     { id: 2,
       name: 'Spirited Away - 2001',
       price: 450,
-      qty: 1
+      qty: 1,
+      image: 'assets/5.jpg',
     },
     { id: 3,
       name: 'Orphan - 2009',
       price: 500,
-      qty: 1
+      qty: 1,
+      image: 'assets/6.jpg',
     },
     { id: 1,
       name: 'Transformers: The Last Knight - 2017',
       price: 500,
-      qty: 1
+      qty: 1,
+      image: 'assets/7.jpg',
     },
     { id: 2,
       name: 'Hello World - 2019',
       price: 500,
-      qty: 1
+      qty: 1,
+      image: 'assets/8.jpg',
     },
     { id: 3,
       name: 'Love is Colorblind - 2021',
       price: 500,
-      qty: 1
+      qty: 1,
+      image: 'assets/9.jpg',
     }
   ]
 
